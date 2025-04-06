@@ -1,0 +1,38 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    @apply font-[Montserrat] tracking-[0.2px] text-[#737373];
+}
+
+.container {
+    @apply max-w-[1050px] mx-auto;
+}
+
+h1, h2, h3 {
+    /* @apply text-[#252B42]; */
+}
+
+.rrf_header {
+    @apply bg-[url('../images/hero-bg.jpg')] bg-cover bg-center;
+}
+
+.pramary-menu {
+    @apply flex items-center;
+}
+
+.pramary-menu li a {
+    @apply text-[#737373] text-[14px] block font-semibold leading-[24px] py-[40px] px-[15px] transition duration-300 hover:text-[#00A0C1];
+}
+
+.rrf-btn {
+    @apply bg-[#FFA62B] text-[14px] text-white font-bold border-[1px] border-[#FFA62B] leading-[28px] py-[10px] px-[40px] transition duration-300 block rounded-full hover:bg-[#00A0C1] hover:text-[#ffffff] hover:border-[#00A0C1];
+}
+
+.rrf-btn-outline {
+    @apply border-[#00A0C1] text-[#00A0C1] bg-transparent;
+}
+
+.testimonials-slider .slider {
+    @apply py-10 pl-[84px] max-w-[548px];
+}
